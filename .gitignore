@@ -71,3 +71,5 @@ project.nuget.cache
 /MODELS/obj/MODELS.csproj.nuget.dgspec.json
 /MODELS/obj/project.assets.json
 /MODELS/obj/project.nuget.cache
+/ADQCC_API_New/obj/Debug/net8.0/ADQCC_API_New.MvcApplicationPartsAssemblyInfo.cache
+/ADQCC_API_New/obj/Debug/net8.0/ADQCC_API_New.MvcApplicationPartsAssemblyInfo.cs
