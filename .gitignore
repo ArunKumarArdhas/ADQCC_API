@@ -15,4 +15,38 @@
 /BUSINESS_LOGIC/BusinessLogic
 *.cs
 /ADQCC_API_New/.vs/ADQCC_API_New/DesignTimeBuild/.dtbcache.v2
-/ADQCC_API_New/.vs/ADQCC_API_New/DesignTimeBuild/.dtbcache.v2
+# Ignore .vs folder
+.vs/
+
+# Ignore obj folders
+**/obj/
+
+# Ignore project.assets.json
+project.assets.json
+
+# Ignore project.nuget.cache
+project.nuget.cache
+/ADQCC_API_New/.vs/ADQCC_API_New/v17/.suo
+/ADQCC_API_New/.vs/ADQCC_API_New/v17/DocumentLayout.json
+/ADQCC_API_New/.vs/ProjectEvaluation/adqcc_api_new.metadata.v8.bin
+/ADQCC_API_New/.vs/ProjectEvaluation/adqcc_api_new.projects.v8.bin
+/ADQCC_API_New/.vs/ProjectEvaluation/adqcc_api_new.strings.v8.bin
+/ADQCC_API_New/obj/Debug/net8.0/ADQCC_API_New.AssemblyInfo.cs
+/ADQCC_API_New/obj/Debug/net8.0/ADQCC_API_New.AssemblyInfoInputs.cache
+/ADQCC_API_New/obj/Debug/net8.0/ADQCC_API_New.assets.cache
+/ADQCC_API_New/obj/Debug/net8.0/ADQCC_API_New.csproj.AssemblyReference.cache
+/ADQCC_API_New/obj/Debug/net8.0/ADQCC_API_New.GeneratedMSBuildEditorConfig.editorconfig
+/ADQCC_API_New/obj/ADQCC_API_New.csproj.nuget.dgspec.json
+/ADQCC_API_New/obj/project.assets.json
+/ADQCC_API_New/obj/project.nuget.cache
+/BUSINESS_LOGIC/obj/Debug/net8.0/BUSINESS_LOGIC.AssemblyInfo.cs
+/BUSINESS_LOGIC/obj/Debug/net8.0/BUSINESS_LOGIC.AssemblyInfoInputs.cache
+/BUSINESS_LOGIC/obj/Debug/net8.0/BUSINESS_LOGIC.assets.cache
+/IBUSINESS_LOGIC/obj/Debug/net8.0/IBUSINESS_LOGIC.AssemblyInfo.cs
+/IBUSINESS_LOGIC/obj/Debug/net8.0/IBUSINESS_LOGIC.AssemblyInfoInputs.cache
+/ADQCC_API_New
+/BUSINESS_LOGIC/obj/Debug/net8.0/BUSINESS_LOGIC.csproj.AssemblyReference.cache
+/BUSINESS_LOGIC/obj/Debug/net8.0/BUSINESS_LOGIC.GeneratedMSBuildEditorConfig.editorconfig
+/BUSINESS_LOGIC/obj/BUSINESS_LOGIC.csproj.nuget.dgspec.json
+/BUSINESS_LOGIC/obj/project.assets.json
+/BUSINESS_LOGIC/obj/project.nuget.cache
