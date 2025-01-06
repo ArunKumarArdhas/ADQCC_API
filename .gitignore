@@ -50,3 +50,10 @@ project.nuget.cache
 /BUSINESS_LOGIC/obj/BUSINESS_LOGIC.csproj.nuget.dgspec.json
 /BUSINESS_LOGIC/obj/project.assets.json
 /BUSINESS_LOGIC/obj/project.nuget.cache
+/IBUSINESS_LOGIC/obj/Debug/net8.0/IBUSINESS_LOGIC.assets.cache
+/IBUSINESS_LOGIC/obj/Debug/net8.0/IBUSINESS_LOGIC.csproj.AssemblyReference.cache
+/IBUSINESS_LOGIC/obj/Debug/net8.0/IBUSINESS_LOGIC.GeneratedMSBuildEditorConfig.editorconfig
+/MODELS/obj/Debug/net8.0/MODELS.AssemblyInfo.cs
+/MODELS/obj/Debug/net8.0/MODELS.AssemblyInfoInputs.cache
+/MODELS/obj/Debug/net8.0/MODELS.assets.cache
+/MODELS/obj/Debug/net8.0/MODELS.GeneratedMSBuildEditorConfig.editorconfig
