@@ -1,0 +1,29 @@
+D:\SVN_New\ADQCC_SK\ADQCC_API_New\MODELS\bin\Debug\net8.0\MODELS.deps.json
+D:\SVN_New\ADQCC_SK\ADQCC_API_New\MODELS\bin\Debug\net8.0\MODELS.dll
+D:\SVN_New\ADQCC_SK\ADQCC_API_New\MODELS\bin\Debug\net8.0\MODELS.pdb
+D:\SVN_New\ADQCC_SK\ADQCC_API_New\MODELS\obj\Debug\net8.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+D:\SVN_New\ADQCC_SK\ADQCC_API_New\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfoInputs.cache
+D:\SVN_New\ADQCC_SK\ADQCC_API_New\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfo.cs
+D:\SVN_New\ADQCC_SK\ADQCC_API_New\MODELS\obj\Debug\net8.0\MODELS.csproj.CoreCompileInputs.cache
+D:\SVN_New\ADQCC_SK\ADQCC_API_New\MODELS\obj\Debug\net8.0\MODELS.dll
+D:\SVN_New\ADQCC_SK\ADQCC_API_New\MODELS\obj\Debug\net8.0\refint\MODELS.dll
+D:\SVN_New\ADQCC_SK\ADQCC_API_New\MODELS\obj\Debug\net8.0\MODELS.pdb
+D:\SVN_New\ADQCC_SK\ADQCC_API_New\MODELS\obj\Debug\net8.0\ref\MODELS.dll
+D:\ADQCC 8.0\ADQCC_N_API\MODELS\obj\Debug\net8.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+D:\ADQCC 8.0\ADQCC_N_API\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfoInputs.cache
+D:\ADQCC 8.0\ADQCC_N_API\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfo.cs
+D:\ADQCC 8.0\ADQCC_N_API\MODELS\obj\Debug\net8.0\MODELS.csproj.CoreCompileInputs.cache
+D:\ADQCC 8.0\ADQCC_N_API\MODELS\bin\Debug\net8.0\MODELS.deps.json
+D:\ADQCC 8.0\ADQCC_N_API\MODELS\bin\Debug\net8.0\MODELS.dll
+D:\ADQCC 8.0\ADQCC_N_API\MODELS\bin\Debug\net8.0\MODELS.pdb
+D:\ADQCC 8.0\ADQCC_N_API\MODELS\obj\Debug\net8.0\MODELS.dll
+D:\ADQCC 8.0\ADQCC_N_API\MODELS\obj\Debug\net8.0\refint\MODELS.dll
+D:\ADQCC 8.0\ADQCC_N_API\MODELS\obj\Debug\net8.0\MODELS.pdb
+D:\ADQCC 8.0\ADQCC_N_API\MODELS\obj\Debug\net8.0\ref\MODELS.dll
+D:\Arun\ADQCC - New\API\MODELS\obj\Debug\net8.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arun\ADQCC - New\API\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfoInputs.cache
+D:\Arun\ADQCC - New\API\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfo.cs
+D:\Arun\ADQCC - New\API\MODELS\obj\Debug\net8.0\MODELS.csproj.CoreCompileInputs.cache
+D:\Arun\ADQCC - New\API\MODELS\obj\Debug\net8.0\MODELS.dll
+D:\Arun\ADQCC - New\API\MODELS\obj\Debug\net8.0\refint\MODELS.dll
+D:\Arun\ADQCC - New\API\MODELS\obj\Debug\net8.0\MODELS.pdb

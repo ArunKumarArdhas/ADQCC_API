@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ADQCC_API_New.props" />
+</Project>

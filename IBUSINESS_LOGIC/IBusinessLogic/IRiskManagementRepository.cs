@@ -1,0 +1,112 @@
+﻿using MODELS;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IBUSINESS_LOGIC.IBusinessLogic
+{
+    public interface IRiskManagementRepository : IGenericRepository<GET_RM_HAZARD_MASTER>
+    {
+        //---------------------------RISK MANAGEMENT--------------------------------------------------------
+
+        //HAZARD MASTER
+        Task<IReadOnlyList<GET_RM_HAZARD_MASTER>> GETRMHAZARDMASREPO();
+        Task<RETURN_MESSAGE> ADDRMHAZARDMASREPO(ADD_RM_HAZARD_MASTER _ADDRMHAZARDMASTER);
+        Task<GET_RM_HAZARD_MASTER> GETEDITRMHAZARDMASREPO(GET_RM_HAZARD_MASTER model);
+
+
+        //RISKS_OTHER_RISKS
+        Task<IReadOnlyList<GET_RM_RISKS_OTHER_RISKS>> GETHAZARDSELECTREPO();
+        Task<RETURN_MESSAGE> ADDRMRISKOTHERRISKREPO(ADD_RM_RISKS_OTHER_RISKS _ADDRMRISKOTHERRISK);
+        Task<GET_RM_RISKS_OTHER_RISKS> GETBYIDRISKREPO(GET_RM_RISKS_OTHER_RISKS RISKS_OTHER_RISKS_ID);
+
+        //Risk Category Master
+        Task<IReadOnlyList<GET_RM_RISK_CAT_MASTER>> GETRMRISKCATMAS();
+        Task<RETURN_MESSAGE> ADDRMRISKCATMAS(ADD_RM_RISK_CAT_MASTER _ADDRMRISKCATMASTER);
+        Task<GET_RM_RISK_CAT_MASTER> GETBYIDRISKCATMAS(GET_RM_RISK_CAT_MASTER RISK_CAT_MAS_ID);
+
+        //PERSONS_GROUPS
+        Task<IReadOnlyList<GET_RM_PERSONS_GROUPS>> GETRMPERSONSGROUPSREPO();
+        Task<RETURN_MESSAGE> ADDRMPERSONSGROUPSREPO(ADD_RM_PERSONS_GROUPS _ADDRMPERSONSGROUPS);
+        Task<GET_RM_PERSONS_GROUPS> GETEDITRMPERSONSGROUPSREPO(GET_RM_PERSONS_GROUPS PERSON_GROUP_ID);
+
+        //DETAILS_EXIST_CONT
+        Task<IReadOnlyList<GET_RM_DETAILS_EXIST_CONT>> GETDECREPO();
+        Task<RETURN_MESSAGE> ADDDECREPO(ADD_RM_DETAILS_EXIST_CONT _ADDDEC);
+        Task<GET_RM_DETAILS_EXIST_CONT> GETEDITDECREPO(GET_RM_DETAILS_EXIST_CONT DETAILS_EXIST_CONT_ID);
+
+        //Additional Control Measures
+        Task<IReadOnlyList<GET_RM_ADD_CONT_MEAS>> GETADDTCONTMEASREPO();
+        Task<RETURN_MESSAGE> ADDCONTMEASREPO(ADD_RM_ADD_CONT_MEAS _ADDCONTMEAS);
+        Task<GET_RM_ADD_CONT_MEAS> GETEDITADDCONTMEASREPO(GET_RM_ADD_CONT_MEAS ADD_CONT_MEAS_ID);
+
+
+        //Opportunities and other opportunities
+        Task<IReadOnlyList<GET_RM_OPPORTUNITIES>> GETOPPORTUNITIESREPO();
+        Task<RETURN_MESSAGE> ADDOPPORTUNITIESREPO(ADD_RM_OPPORTUNITIES _ADDOPPORTUNITIES);
+        Task<GET_RM_OPPORTUNITIES> GETEDITOPPORTUNITIESREPO(GET_RM_OPPORTUNITIES OPPORTUNITIES_ID);
+
+        //Critical Hazard Master
+        Task<IReadOnlyList<GET_RM_CRIT_HAZARD_MASTER>> GETRMCRITHAZARDMASREPO();
+        Task<RETURN_MESSAGE> ADDRMCRITHAZARDMASREPO(ADD_RM_CRIT_HAZARD_MASTER _ADDRMCRITHAZARDMASTER);
+        Task<GET_RM_CRIT_HAZARD_MASTER> GETEDITRMCRITHAZARDMASREPO(GET_RM_CRIT_HAZARD_MASTER CRIT_HAZARD_MAS_ID);
+
+
+
+        //SAM
+
+        //----------------------------RiskBCM-------------------
+        Task<RETURN_MESSAGE> AddRiskBCM(ADD_RISK_COVER_BCM entity);
+        Task<IReadOnlyList<GET_RISK_COVER_BCM>> GetAll_RiskBCM();
+        Task<GET_RISK_COVER_BCM> GetByIdRiskBCM(GET_RISK_COVER_BCM RM_COVER_ID);
+
+        //----------------------------RiskProcess------------------
+
+        Task<RETURN_MESSAGE> AddRiskProcess(ADD_RISK_PROCESS_ACTIVITY_BCM entity);
+        Task<IReadOnlyList<GET_RISK_PROCESS_ACTIVITY_BCM>> GetAll_RiskProcess();
+        Task<GET_RISK_PROCESS_ACTIVITY_BCM> GetByIdRiskProcess(GET_RISK_PROCESS_ACTIVITY_BCM RM_PROCESS_ACT_ID);
+
+        //-----------------------------------RiskExistBCM---------------
+
+        Task<RETURN_MESSAGE> AddRiskExistBCM(ADD_EXISTING_CONTROL_MASTER entity);
+        Task<IReadOnlyList<GET_EXISTING_CONTROL_MASTER>> GetAll_ExistBCM();
+        Task<GET_EXISTING_CONTROL_MASTER> GetByIdRiskExistBCM(GET_EXISTING_CONTROL_MASTER RM_EXIST_CON_ID);
+
+        //---------------------------------RiskTreatment---------------------
+
+        Task<RETURN_MESSAGE> AddRiskTreatment(ADD_TREATMENT_MASTER entity);
+        Task<IReadOnlyList<GET_TREATMENT_MASTER>> GetAll_RiskTreatment();
+        Task<GET_TREATMENT_MASTER> GetByIdRiskTreatment(GET_TREATMENT_MASTER RM_TREATMENT_ID);
+
+        //--------------------------------------
+
+
+
+
+
+
+        //THARA
+        //----------------------NONCRITHAZMAS----------------------------------
+        Task<IReadOnlyList<GET_RM_NON_CRIT_HAZ_MASTER>> GETRMNONCRITHAZMASREPO();
+        Task<RETURN_MESSAGE> ADDRMNONCRITHAZMASREPO(ADD_RM_NON_CRIT_HAZ_MASTER entity);
+        Task<ADD_RM_NON_CRIT_HAZ_MASTER> GETEDITRMNONCRITHAZMASREPO(ADD_RM_NON_CRIT_HAZ_MASTER model);
+
+        //-----------------------RMNONROUTEMERGMAS---------------------------
+        Task<IReadOnlyList<GET_RM_NON_ROUT_EMERG_MASTER>> GETRMNONROUTEMERGMASREPO();
+        Task<RETURN_MESSAGE> ADDRMNONROUTEMERGMASREPO(ADD_RM_NON_ROUT_EMERG_MASTER entity);
+        Task<ADD_RM_NON_ROUT_EMERG_MASTER> GETEDITRMNONROUTEMERGMASREPO(ADD_RM_NON_ROUT_EMERG_MASTER model);
+
+        //---------------------RMEXISTINGCMIHMAS-------------------------------------------
+        Task<IReadOnlyList<GET_RM_EXISTING_CMIH_MASTER>> GETRMEXISTINGCMIHMASREPO();
+        Task<RETURN_MESSAGE> ADDRMEXISTINGCMIHMASREPO(ADD_RM_EXISTING_CMIH_MASTER entity);
+        Task<ADD_RM_EXISTING_CMIH_MASTER> GETEDITRMEXISTINGCMIHMASREPO(ADD_RM_EXISTING_CMIH_MASTER model);
+
+        //----------------------------RMCategory------------------------------------------
+        Task<IReadOnlyList<GET_RISK_CATEGORY_BCM>> GetRMCategory();
+        Task<RETURN_MESSAGE> AddRMCATEGORY(ADD_RISK_CATEGORY_BCM entity);
+        Task<ADD_RISK_CATEGORY_BCM> GetRM_CATEGORY_Edit(ADD_RISK_CATEGORY_BCM model);
+
+    }
+}
