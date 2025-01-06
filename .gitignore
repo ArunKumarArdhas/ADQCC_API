@@ -3,3 +3,14 @@
 ################################################################################
 
 /.vs/ADQCC_API_New/v17/.suo
+/ADQCC_API_New/.vs/ADQCC_API_New/FileContentIndex
+/ADQCC_API_New/obj/Debug/net8.0/refint
+/IBUSINESS_LOGIC/obj/Debug/net8.0/refint
+/MODELS/obj/Debug/net8.0/refint
+/MODELS/obj/Debug/net8.0
+/IBUSINESS_LOGIC/obj/Debug/net8.0
+/ADQCC_API_New/obj/Debug/net8.0
+/BUSINESS_LOGIC/obj/Debug/net8.0/refint
+/BUSINESS_LOGIC/obj/Debug/net8.0
+/BUSINESS_LOGIC/BusinessLogic
+*.cs
